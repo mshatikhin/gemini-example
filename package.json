@@ -1,0 +1,20 @@
+{
+  "name": "gemini-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".gemini.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "gemini test --root-url http://localhost:8080 --reporter vflat --reporter html",
+    "selenium": "selenium-standalone start",
+    "start:server": "http-server ./src -o -d -p 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gemini": "^4.18.1",
+    "gemini-gui": "^4.6.1",
+    "http-server": "^0.9.0"
+  }
+}

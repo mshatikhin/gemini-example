@@ -1,5 +1,5 @@
 module.exports = {
-    rootUrl: 'http://localhost:8080',
+    rootUrl: 'http://127.0.0.1:8080/',
 
     browsers: {
         chrome: {

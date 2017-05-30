@@ -4,10 +4,9 @@
   "description": "",
   "main": ".gemini.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "test": "gemini test --root-url http://localhost:8080 --reporter vflat --reporter html",
+    "test": "gemini test --reporter vflat --reporter html",
     "selenium": "selenium-standalone start",
-    "start:server": "http-server ./src -o -d -p 8080"
+    "start": "http-server ./src -o -d -p 8080"
   },
   "keywords": [],
   "author": "",

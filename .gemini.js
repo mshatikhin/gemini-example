@@ -1,5 +1,5 @@
 module.exports = {
-    rootUrl: 'http://127.0.0.1:8080/',
+    rootUrl: 'https://kontur.ru/',
 
     browsers: {
         chrome: {
@@ -8,5 +8,8 @@ module.exports = {
                 version: 'latest'
             }
         }
-    }
+    },
+    screenshotMode: "auto",
+    compositeImage: true
+
 };

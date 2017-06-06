@@ -13,7 +13,6 @@
   "license": "ISC",
   "devDependencies": {
     "gemini": "^4.18.1",
-    "gemini-gui": "^4.6.1",
     "http-server": "^0.9.0"
   }
 }
